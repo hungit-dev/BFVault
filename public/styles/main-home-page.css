@@ -33,15 +33,20 @@ main img.main-blox-fruits-thumbnail {
 /*Responsive for small screens*/
 @media (max-width: 992px) {
   main div.container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
   }
   main .main-btn-group {
     flex-direction: row;
+    justify-content: center;
   }
 }
 @media (max-width: 600px) {
   main img.main-blox-fruits-thumbnail {
     width: 100%;
     height: auto;
+  }
+  main .main-btn-group {
+    justify-content: flex-start;
   }
 }
