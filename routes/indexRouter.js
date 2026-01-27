@@ -1,8 +1,7 @@
 const { Router } = require("express");
 const indexRouter = Router();
+const { renderHomePage } = require("../controllers/indexController");
 
-indexRouter.get("/", (req, res) => {
-  res.send("BFVault");
-});
+indexRouter.get("/", renderHomePage);
 
 module.exports = indexRouter;

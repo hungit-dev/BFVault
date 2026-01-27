@@ -1,0 +1,8 @@
+nav.navbar {
+  background-color: #18181b;
+  border-bottom: 0.5px solid white;
+}
+
+nav.navbar .nav-item .nav-link {
+  color: white;
+}

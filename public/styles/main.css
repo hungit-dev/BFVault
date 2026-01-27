@@ -1,0 +1,47 @@
+main {
+  background-color: #18181b;
+  color: white;
+  padding: 1.5rem;
+}
+
+main div.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 25px;
+}
+main .main-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .main-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* override bootstrap btn styles */
+main .main-btn-group a.btn {
+  width: 150px;
+  background-color: #18181b;
+  border: 1px solid white;
+}
+main img.main-blox-fruits-thumbnail {
+  width: 500px;
+  height: 300px;
+}
+/*Responsive for small screens*/
+@media (max-width: 992px) {
+  main div.container {
+    flex-direction: column;
+  }
+  main .main-btn-group {
+    flex-direction: row;
+  }
+}
+@media (max-width: 600px) {
+  main img.main-blox-fruits-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+}
