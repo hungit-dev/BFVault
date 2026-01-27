@@ -1,0 +1,31 @@
+{
+  "name": "bfvault",
+  "version": "1.0.0",
+  "description": "A hub for storing blox fruits scripts",
+  "keywords": [
+    "Blox",
+    "fruits",
+    "Scripts",
+    "Hub",
+    "Executors"
+  ],
+  "homepage": "https://github.com/hungit-dev/BFVault#readme",
+  "bugs": {
+    "url": "https://github.com/hungit-dev/BFVault/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungit-dev/BFVault.git"
+  },
+  "license": "ISC",
+  "author": "hungitdev",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
