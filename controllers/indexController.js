@@ -4,8 +4,11 @@ const renderHomePage = (req, res) => {
 const renderTermsPage = (req, res) => {
   return res.render("terms-page");
 };
-
+const renderPrivacyPage = (req, res) => {
+  return res.render("privacy-page");
+};
 module.exports = {
   renderHomePage,
   renderTermsPage,
+  renderPrivacyPage,
 };

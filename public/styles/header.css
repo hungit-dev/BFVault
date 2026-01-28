@@ -1,3 +1,6 @@
+header {
+  margin-bottom: 2rem;
+}
 nav.navbar {
   background-color: #18181b;
   border-bottom: 0.5px solid white;
