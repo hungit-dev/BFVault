@@ -1,0 +1,13 @@
+main {
+  background-color: #18181b;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  min-height: 500px;
+}
+main h1 {
+  margin-bottom: 2rem;
+}
+main h2 {
+  font-size: 1.5rem;
+}
