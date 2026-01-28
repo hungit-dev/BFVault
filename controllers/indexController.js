@@ -16,7 +16,6 @@ const renderHowToRunPage = (req, res) => {
   return res.render("how-to-run-page");
 };
 const renderScriptsPage = (req, res) => {
-  console.log(scripts);
   return res.render("scripts-page", { scripts: scripts });
 };
 module.exports = {

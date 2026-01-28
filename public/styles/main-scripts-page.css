@@ -62,9 +62,13 @@ main article .script .lua-copy-btn-container p {
   font-weight: bold;
   margin: 0;
 }
-main article .script .lua-copy-btn-container button {
-  width: 60px;
+main article .script .lua-copy-btn-container .copy-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
   height: 35px;
+  padding: 15px;
   color: white;
   background-color: #007bff;
   border: 0;
