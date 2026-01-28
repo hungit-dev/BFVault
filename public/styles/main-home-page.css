@@ -73,6 +73,9 @@ main .main-btn-group a.btn:active {
 }
 /*Responsive for small screens*/
 @media (max-width: 992px) {
+  main {
+    padding-top: 3rem;
+  }
   main div.container {
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -86,6 +89,9 @@ main .main-btn-group a.btn:active {
   main img.main-blox-fruits-thumbnail {
     width: 100%;
     height: auto;
+  }
+  main .main-text-container {
+    gap: 1rem;
   }
   main .main-btn-group {
     justify-content: flex-start;
