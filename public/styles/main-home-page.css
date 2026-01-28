@@ -31,6 +31,46 @@ main img.main-blox-fruits-thumbnail {
   width: 500px;
   height: 300px;
 }
+/*Button hover effect */
+a.btn {
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+a.btn {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.btn:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+  transition: 0.5s;
+}
+
+a.btn:hover {
+  padding-right: 34px;
+  padding-left: 8px;
+}
+
+a.btn:hover:after {
+  opacity: 1;
+  right: 25px; /* moved slightly more left */
+}
+/*Button focus effect */
+main .main-btn-group a.btn:active {
+  background-color: #ffffff;
+  color: #18181b !important;
+  transform: translateY(0) scale(0.99);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
 /*Responsive for small screens*/
 @media (max-width: 992px) {
   main div.container {

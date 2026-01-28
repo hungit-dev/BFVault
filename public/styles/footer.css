@@ -39,7 +39,12 @@ footer .links ul {
   width: 100%;
   padding-left: 0;
 }
-
+footer .links a:hover {
+  color: #e0e0e0;
+}
+footer .links a:active {
+  color: #b3b3b3;
+}
 /* Responsive for small screens */
 @media (max-width: 576px) {
   footer {

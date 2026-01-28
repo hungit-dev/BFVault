@@ -74,6 +74,12 @@ main article .script .lua-copy-btn-container .copy-btn {
   border: 0;
   border-radius: 10px;
 }
+main article .script .lua-copy-btn-container .copy-btn:hover {
+  background-color: #0069d9;
+}
+main article .script .lua-copy-btn-container .copy-btn:active {
+  background-color: #0056b3;
+}
 main article .script .script-code {
   color: white;
   font-family: "Fira Code";
