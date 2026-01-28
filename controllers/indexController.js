@@ -1,3 +1,5 @@
+const scripts = require("../db/db.js");
+
 const renderHomePage = (req, res) => {
   return res.render("home-page");
 };
@@ -14,7 +16,8 @@ const renderHowToRunPage = (req, res) => {
   return res.render("how-to-run-page");
 };
 const renderScriptsPage = (req, res) => {
-  return res.render("scripts-page");
+  console.log(scripts);
+  return res.render("scripts-page", { scripts: scripts });
 };
 module.exports = {
   renderHomePage,
