@@ -1,4 +1,4 @@
-const scripts = require("../db/db.js");
+const { prisma } = require("../lib/prisma.js");
 
 const renderHomePage = (req, res) => {
   return res.render("home-page");
@@ -15,7 +15,8 @@ const renderContactUsPage = (req, res) => {
 const renderHowToRunPage = (req, res) => {
   return res.render("how-to-run-page");
 };
-const renderScriptsPage = (req, res) => {
+const renderScriptsPage = async (req, res) => {
+  const scripts = await prisma.script.findMany();
   return res.render("scripts-page", { scripts: scripts });
 };
 module.exports = {

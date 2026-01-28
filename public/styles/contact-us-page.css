@@ -11,3 +11,6 @@ main h1 {
 main h2 {
   font-size: 1.5rem;
 }
+main span {
+  color: #ffa94d;
+}
