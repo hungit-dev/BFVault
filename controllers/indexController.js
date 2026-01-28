@@ -13,10 +13,14 @@ const renderContactUsPage = (req, res) => {
 const renderHowToRunPage = (req, res) => {
   return res.render("how-to-run-page");
 };
+const renderScriptsPage = (req, res) => {
+  return res.render("scripts-page");
+};
 module.exports = {
   renderHomePage,
   renderTermsPage,
   renderPrivacyPage,
   renderContactUsPage,
   renderHowToRunPage,
+  renderScriptsPage,
 };

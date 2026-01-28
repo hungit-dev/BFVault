@@ -1,0 +1,93 @@
+main {
+  background-color: #18181b;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+main h1 {
+  margin-bottom: 2rem;
+}
+main h2 {
+  font-size: 1.5rem;
+}
+main h3 {
+  font-size: 1.4rem;
+}
+main section.container-fluid {
+  padding: 0;
+  margin-top: 2rem;
+}
+main .description-img-container {
+  display: flex;
+  gap: 1.5rem;
+}
+main .description-img-container img {
+  width: 100%;
+  max-width: 420px; /* caps at original size */
+  height: auto;
+  margin-bottom: 2rem;
+}
+main article {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+main article h3 svg {
+  margin-bottom: 0.5rem;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+main article .script {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+  background-color: #292929;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+main article .script .lua-copy-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main article .script .lua-copy-btn-container p {
+  color: #00d084;
+  font-weight: bold;
+  margin: 0;
+}
+main article .script .lua-copy-btn-container button {
+  width: 60px;
+  height: 35px;
+  color: white;
+  background-color: #007bff;
+  border: 0;
+  border-radius: 10px;
+}
+main article .script .script-code {
+  color: white;
+  font-family: "Fira Code";
+  font-size: 14px;
+  overflow-wrap: break-word;
+}
+
+/*Responsive for small screens */
+@media (max-width: 990px) {
+  main .description-img-container {
+    flex-direction: column;
+  }
+  main h3 {
+    font-size: 1.2rem;
+  }
+  main .description-img-container img {
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+}
