@@ -10,9 +10,13 @@ const renderPrivacyPage = (req, res) => {
 const renderContactUsPage = (req, res) => {
   return res.render("contact-us-page");
 };
+const renderHowToRunPage = (req, res) => {
+  return res.render("how-to-run-page");
+};
 module.exports = {
   renderHomePage,
   renderTermsPage,
   renderPrivacyPage,
   renderContactUsPage,
+  renderHowToRunPage,
 };
